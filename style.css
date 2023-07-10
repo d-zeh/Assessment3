@@ -1,0 +1,123 @@
+body {
+    background-image: url(https://i.redd.it/ckinke3dxde41.png);
+    background-size: contain;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+nav {
+	border-bottom: 2px solid orange;
+}
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+.container-one {
+    display: align-flex;
+
+
+    .square-one {
+        background-color: lightgoldenrodyellow;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 5px solid black;
+        padding: 10px;
+        display: fit;
+        align-items:flex-start;
+        height: 35vh;
+        width: 25vh;
+        margin: 0 50px;
+        position: center;
+        }
+
+    .box {
+        height: 10vh;
+        position: relative;
+        width: 28.5vh;
+        background-color: lightgoldenrodyellow;
+        background-image: url(https://i.pinimg.com/originals/da/44/dc/da44dc28040f0a953f916a48a29edb2e.gif);
+        background-size: 50%;
+        margin: 0 50px;
+
+        }
+}
+.container-two {
+    align-items: flex;
+    .square-two {
+        height: 10vh;
+        position: relative;
+        width: 39vh;
+        background-color: lightgoldenrodyellow;
+        background-image: url(https://64.media.tumblr.com/55ccbf79d091db5391f8d5ee79641e2b/94fe171a2735dbb8-d4/s540x810/59648ae0e31d97fb42374d2e5f4495917bca552a.gifv);
+        background-size: contain;
+        margin: 0 50px;
+    
+    }
+    
+    .square-three {
+        background-color: lightgoldenrodyellow;
+        margin: 0 auto;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 5px solid black;
+        padding: 10px;
+        height:35vh;
+        width: 35vh;
+        position: center;
+    }
+}
+
+.container-three {
+    align-items: flex;
+    .boxone {
+        background-color: lightgoldenrodyellow;
+        margin: 0 auto;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 5px solid black;
+        padding: 10px;
+        height:45vh;
+        width: 35vh;
+        position: center;
+    }
+    .boxtwo {
+        height: 10vh;
+        position: relative;
+        width: 38vh;
+        background-color: lightgoldenrodyellow;
+        background-image: url(https://thumbs.gfycat.com/ImportantMarriedEgret-max-1mb.gif);
+        background-size: contain;
+        margin: 0 50px;
+
+    }
+}
+
+
+img {
+	max-width: 20vh;
+}
+
+.buttons {
+    background-color: Yellow;
+    border: none;
+    color:  rgb(201, 13, 201);
+    padding: 5px 10px;;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 50px;
+    position: relative;
+}
